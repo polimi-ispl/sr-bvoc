@@ -1,8 +1,8 @@
-<div align="center">
-# Super-Resolution of BVOC Emission Maps Via Domain Adaptation
+<h1 style="text-align: center;">
+Super-Resolution of BVOC Emission Maps Via Domain Adaptation
+</h1>
 
-<img src=./system.pdf  width="60%", align="center">
-<div align="left">
+<p align="center" width="100%"><img width="50%" src="./system.png"></p>
 
 Official Repository of
  **Super-Resolution of BVOC Emission Maps Via Domain Adaptation** paper, accepted at IGARSS 2023 and available at IEEExplore.
@@ -14,32 +14,28 @@ For more details, please see: "[Super-Resolution of BVOC Emission Maps Via Domai
 ## Supplementary materials
 ### Dataset Comparison
 ###### Aggregation Differences
-<div align="center">
-<img src=./experiments/dataset_difference.pdf  width="60%", align="center">
-<div align="left">
+<p align="center" width="100%"><img width="50%" src="./experiments/dataset_difference.png"></p>
+
 ###### Spectral Differences
 
 ### Preliminary Results
 ###### Resolution Effect
-<div align="center">
-<img src=./experiments/resolution_comparison_1.pdf  width="60%", align="center">
-
-<img src=./experiments/resolution_comparison_2.pdf  width="60%", align="center">
-<div align="left">
+<p align="center" width="100%"><img width="50%" src="./experiments/resolution_comparison_1.png"></p>
+<p align="center" width="100%"><img width="50%" src="./experiments/resolution_comparison_2.png"></p>
 
 ### Data Tranformation Adaptation
 
 ### Network Operator Adaptation
 ###### Injection
 Normal
-<img src=./experiments/injection_comparison_good.pdf  width="100%", align="center">
+<p align="center" width="100%"><img width="80%" src="./experiments/injection_comparison_good.png"></p>
 
 Outlier
-<img src=./experiments/injection_comparison_bad.pdf  width="100%", align="center">
+<p align="center" width="100%"><img width="80%" src="./experiments/injection_comparison_bad.png"></p>
+
 ###### Performance Comparison
-<div align="center">
-<img src=./experiments/exp_2_val_mix.pdf  width="70%", align="center">
-<div align="left">
+<p align="center" width="100%"><img width="50%" src="./experiments/exp_2_val_mix.png"></p>
+
 
 ###### Generalization on Simulated Data
 ###### GOME-2 vs OMI network cross test
@@ -75,11 +71,11 @@ A. Giganti, S. Mandelli, P. Bestagini, et al., “Multi-BVOC Super-Resolution Ex
 This work was supported by the Italian Ministry of University and
 Research (MUR) and the European Union (EU) under the PON/REACT project.
 
-<img src="./logos/ispl_logo.pdf" width="100px" alt="logo"></img>
-<img src="./logos/polimi_logo.pdf" width="200px" alt="logo"></img>
-<img src="./logos/pon_logo.pdf" width="150px" alt="logo"></img>
-<img src="./logos/mur_logo.pdf" width="70px" alt="logo"></img>
-<img src="./logos/ue_logo.pdf" width="100px" alt="logo"></img>
+<img src="./logos/ispl_logo.png" width="100px" alt="logo"></img>
+<img src="./logos/polimi_logo.png" width="200px" alt="logo"></img>
+<img src="./logos/pon_logo.png" width="150px" alt="logo"></img>
+<img src="./logos/mur_logo.png" width="70px" alt="logo"></img>
+<img src="./logos/ue_logo.png" width="100px" alt="logo"></img>
 
 
 
