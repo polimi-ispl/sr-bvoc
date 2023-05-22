@@ -2,39 +2,40 @@
 Super-Resolution of BVOC Emission Maps Via Domain Adaptation
 </h1>
 
-<p align="center" width="100%"><img width="50%" src="./system.png"></p>
+<p align="center" width="100%"><img width="60%" src="./system.png"></p>
 
 Official Repository of
- **Super-Resolution of BVOC Emission Maps Via Domain Adaptation** paper, accepted at IGARSS 2023 and available at IEEExplore.
+ **Super-Resolution of BVOC Emission Maps Via Domain Adaptation** paper, accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available at [IEEExplore]().
  
 ## Abstract
 
-For more details, please see: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](IEEE Link)"
+For more details, please check: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](IEEE Link)"
 
-## Supplementary materials
+## Supplementary material
 ### Dataset Comparison
 ###### Aggregation Differences
-<p align="center" width="100%"><img width="50%" src="./experiments/dataset_difference.png"></p>
-
-###### Spectral Differences
+<p align="center" width="100%"><img width="60%" src="./experiments/dataset_difference.png"></p>
 
 ### Preliminary Results
 ###### Resolution Effect
-<p align="center" width="100%"><img width="50%" src="./experiments/resolution_comparison_1.png"></p>
-<p align="center" width="100%"><img width="50%" src="./experiments/resolution_comparison_2.png"></p>
+<p align="center" width="100%"><img width="60%" src="./experiments/resolution_comparison_1.png"></p>
+<p align="center" width="100%"><img width="60%" src="./experiments/resolution_comparison_2.png"></p>
+
+###### Spectral Differences
+<p align="center" width="100%"><img width=55%" src="./experiments/resolution_comparison_frequency.png"></p>
 
 ### Data Tranformation Adaptation
 
 ### Network Operator Adaptation
 ###### Injection
 Normal
-<p align="center" width="100%"><img width="80%" src="./experiments/injection_comparison_good.png"></p>
+<p align="center" width="100%"><img width="90%" src="./experiments/injection_comparison_good.png"></p>
 
 Outlier
-<p align="center" width="100%"><img width="80%" src="./experiments/injection_comparison_bad.png"></p>
+<p align="center" width="100%"><img width="90%" src="./experiments/injection_comparison_bad.png"></p>
 
 ###### Performance Comparison
-<p align="center" width="100%"><img width="50%" src="./experiments/exp_2_val_mix.png"></p>
+<p align="center" width="100%"><img width="55%" src="./experiments/exp_2_val_mix.png"></p>
 
 
 ###### Generalization on Simulated Data
