@@ -36,8 +36,8 @@ Visual difference of two emission maps, from different neural networks, for both
 The first and second columns show the low ($\mathrm{\mathbf{I}\_{LR}^{o}}$) and high resolution ($\mathrm{\mathbf{I}\_{HR}^{o}}$) version of the a map from the $\mathrm{\mathbf{O}}$ domain.
 The last three columns show the super-resolved maps ($\mathrm{\mathbf{\hat{I}}\_{HR}^{o}}$), obtained by using 3 different network:
 - $\mathcal{N}\_{\mathrm{\mathbf{O}}}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ or $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$, based on the dataset used for the super-resolution;
-- $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.25^{circ}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{S}}\_T}$ and designed to make a resolution change from $0.50^{\circ}$ to $0.25^{\circ}$ ;
-- $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.50^{circ}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{S}}\_T}$ and designed to make a resolution change from $1.00^{\circ}$ to $0.50^{\circ}$.
+- $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.25^{\circ}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{S}}\_T}$ and designed to make a resolution change from $0.50^{\circ}$ to $0.25^{\circ}$ ;
+- $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.50^{\circ}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{S}}\_T}$ and designed to make a resolution change from $1.00^{\circ}$ to $0.50^{\circ}$.
 
 Notice that we use the network in a zero-knowledge scenario, thus we do not use any adaptation strategy.
 
@@ -79,6 +79,7 @@ This also reduces the amount time needed to perform the full training and reach 
 
 
 <p align="center" width="100%"><img width="40%" src="./experiments/cross_test.png"></p.
+
 
 ## Citation
 ```BibTex
