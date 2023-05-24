@@ -91,6 +91,31 @@ This also reduces the amount time needed to perform the full training and reach 
 }
 ```
 
+## Data
+The satellite-derived and simulated data used in this work are available from the following links:
+
+**Top-down** invetories:
+- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ - [GOME-2](https://emissions.aeronomie.be/index.php/gome2-based)
+- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ - [OMI](https://emissions.aeronomie.be/index.php/omi-based)
+
+distributed by the Belgian Institute for Space Aeronomy (BIRA-IASB)
+
+<img src="./logos/bira_logo.png" width="30px" alt="logo"></img>
+<img src="./logos/EUMETSAT_logo.png" width="40px" alt="logo"></img>
+<img src="./logos/nasa_logo.png" width="40px" alt="logo"></img>
+<img src="./logos/aura_logo.png" width="50px" alt="logo"></img>
+
+**Bottom-up** inventories:
+- $\mathcal{D}\_{\mathrm{\mathbf{S}}}$ - [CAMS-GLOB-BIO](https://permalink.aeris-data.fr/CAMS-GLOB-BIO)
+
+distributed by Emissions of atmospheric Compounds and Compilation of Ancillary Data (ECCAD), Global Emissions InitiAtive (GEIA)
+
+<img src="./logos/ECCAD_logo.png" width="30px" alt="logo"></img>
+<img src="./logos/GEIA_logo.png" width="80px" alt="logo"></img>
+<img src="./logos/cams_logo.png" width="70px" alt="logo"></img>
+<img src="./logos/copernicus_logo.png" width="80px" alt="logo"></img>
+
+
 ## Related Works on BVOC
 A. Giganti, S. Mandelli, P. Bestagini, et al., “Super-resolution of
 bvoc maps by adapting deep learning methods,” arXiv preprint, 2023
@@ -105,11 +130,11 @@ A. Giganti, S. Mandelli, P. Bestagini, et al., “Multi-BVOC Super-Resolution Ex
 This work was supported by the Italian Ministry of University and
 Research (MUR) and the European Union (EU) under the PON/REACT project.
 
-<img src="./logos/ispl_logo.png" width="100px" alt="logo"></img>
-<img src="./logos/polimi_logo.png" width="200px" alt="logo"></img>
-<img src="./logos/pon_logo.png" width="150px" alt="logo"></img>
-<img src="./logos/mur_logo.png" width="70px" alt="logo"></img>
-<img src="./logos/ue_logo.png" width="100px" alt="logo"></img>
+<img src="./logos/ispl_logo.png" width="110px" alt="logo"></img>
+<img src="./logos/polimi_logo.png" width="230px" alt="logo"></img>
+<img src="./logos/pon_logo.png" width="160px" alt="logo"></img>
+<img src="./logos/mur_logo.png" width="80px" alt="logo"></img>
+<img src="./logos/ue_logo.png" width="110px" alt="logo"></img>
 
 
 
