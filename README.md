@@ -23,26 +23,26 @@ Emission values and patterns differ according to the data aggregation strategies
 ### Perfect Knowledge Scenario
 ###### GOME-2 vs OMI Networks Generalization
 We also performs a cross inference test between the two networks, fully trained on the two different datasets from $\mathrm{\mathbf{O}}$.
-We found that training on $\mathcal{D}_{\mathrm{\mathbf{O}}_1}$ and testing on $\mathcal{D}_{\mathrm{\mathbf{O}}_2}$ provides comparable result
+We found that training on $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ and testing on $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ provides comparable result
 with the classical case, where we train and test on the same dataset.
-This holds also for the $\mathcal{D}_{\mathrm{\mathbf{O}}_2}$ dataset.
+This holds also for the $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ dataset.
 This happens because the two datasets are very similar, and the network is able to generalize well on both of them.
 
 [//]: # (###### Generalization on Simulated Data)
 
 ### Zero Knowledge Scenario
 ###### Resolution Effect
-Visual difference of two emission maps, from different neural networks, for both the $\mathcal{D}_{\mathrm{\mathbf{O}}_1}$ and $\mathcal{D}_{\mathrm{\mathbf{O}}_1}$ datasets. 
-The first and second columns show the low ($\mathrm{\mathbf{I}_{LR}^{o}}$) and high resolution ($\mathrm{\mathbf{I}_{HR}^{o}}$) version of the a map from the $\mathrm{\mathbf{O}}$ domain.
-The last three columns show the super-resolved maps ($\mathrm{\mathbf{\hat{I}}_{HR}^{o}}$), obtained by using 3 different network:
-- $\mathcal{N}_{\mathrm{\mathbf{O}}}$ trained on $\mathcal{D}_{\mathrm{\mathbf{O}}_1}$ or $\mathcal{D}_{\mathrm{\mathbf{O}}_2}$, based on the dataset used for the super-resolution;
-- $\mathcal{N}_{\mathrm{\mathbf{S}}_T}@0.25^{circ}$ trained on $\mathcal{D}_{\mathrm{\mathbf{S}}_T}$ and designed to make a resolution change from $0.50^{\circ}$ to $0.25^{\circ}$ ;
-- $\mathcal{N}_{\mathrm{\mathbf{S}}_T}@0.50^{circ}$ trained on $\mathcal{D}_{\mathrm{\mathbf{S}}_T}$ and designed to make a resolution change from $1.00^{\circ}$ to $0.50^{\circ}$.
+Visual difference of two emission maps, from different neural networks, for both the $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ and $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ datasets. 
+The first and second columns show the low ($\mathrm{\mathbf{I}\_{LR}^{o}}$) and high resolution ($\mathrm{\mathbf{I}\_{HR}^{o}}$) version of the a map from the $\mathrm{\mathbf{O}}$ domain.
+The last three columns show the super-resolved maps ($\mathrm{\mathbf{\hat{I}}\_{HR}^{o}}$), obtained by using 3 different network:
+- $\mathcal{N}\_{\mathrm{\mathbf{O}}}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ or $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$, based on the dataset used for the super-resolution;
+- $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.25^{circ}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{S}}\_T}$ and designed to make a resolution change from $0.50^{\circ}$ to $0.25^{\circ}$ ;
+- $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.50^{circ}$ trained on $\mathcal{D}\_{\mathrm{\mathbf{S}}\_T}$ and designed to make a resolution change from $1.00^{\circ}$ to $0.50^{\circ}$.
 
 Notice that we use the network in a zero-knowledge scenario, thus we do not use any adaptation strategy.
 
 We can observe a substantial difference in the spatial pattern reconstruction between the two networks, trained with data of different spatial resolution.
-The $\mathcal{N}_{\mathrm{\mathbf{S}}_T}@0.25^{circ}$ provides a more blurred version of the map, but it is able to retrieve the emission values more accurately, as we show in the Sec. 4 of the paper.
+The $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.25^{circ}$ provides a more blurred version of the map, but it is able to retrieve the emission values more accurately, as we show in the Sec. 4 of the paper.
 
 [//]: # (Fine-tuning of both the networks should be performed in order to provide more accurate results, since the network trained on the simulated data is not able to capture the satellite-derived emission values.)
 
@@ -55,9 +55,9 @@ The $\mathcal{N}_{\mathrm{\mathbf{S}}_T}@0.25^{circ}$ provides a more blurred ve
 
 ### Network Operator Adaptation
 ###### Injection Comparison
-Visual difference of the reconstructed $\mathrm{\mathbf{O}}$ emission, obtained using different fine-tuned version of $\mathcal{N}_{\mathrm{\mathbf{S}}_T}$ network.
-The percentages denote the amount of data from $\mathcal{D}_{\mathrm{\mathbf{O}}_1}$ or $\mathcal{D}_{\mathrm{\mathbf{O}}_2}$ injected in the learning procedure (train and validation).
-We found that most of the time we obtain acceptable results by injecting just a small amount of data from $\mathcal{D}_{\mathrm{\mathbf{O}}_1}$ or $\mathcal{D}_{\mathrm{\mathbf{O}}_2}$ 
+Visual difference of the reconstructed $\mathrm{\mathbf{O}}$ emission, obtained using different fine-tuned version of $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}$ network.
+The percentages denote the amount of data from $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ or $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ injected in the learning procedure (train and validation).
+We found that most of the time we obtain acceptable results by injecting just a small amount of data from $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ or $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ 
 in the learning procedure, as we can notice from the emission patches.  
 
 <p align="center" width="100%"><img width="90%" src="./experiments/injection_comparison_good.png"></p>
