@@ -120,11 +120,11 @@ distributed by Emissions of atmospheric Compounds and Compilation of Ancillary D
 A. Giganti, S. Mandelli, P. Bestagini, et al., “Super-resolution of
 bvoc maps by adapting deep learning methods,” arXiv preprint, 2023
 
-[![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.svg)](https://arxiv.org/abs/2302.07570v2)
+[![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2)
 
 A. Giganti, S. Mandelli, P. Bestagini, et al., “Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection,” arXiv preprint, 2023
 
-[![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.svg)](https://arxiv.org/abs/2305.14180v1)
+[![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1)
 
 ### Acknowledgement
 This work was supported by the Italian Ministry of University and
