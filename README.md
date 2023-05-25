@@ -8,7 +8,18 @@ Official Repository of
  **Super-Resolution of BVOC Emission Maps Via Domain Adaptation** paper, accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available at [IEEExplore]().
  
 ## Abstract
-[INSERT ABSTRACT HERE]
+Enhancing the resolution of Biogenic Volatile Organic Compound (BVOC) emission maps is a critical task in remote sensing. 
+Recently, some Super-Resolution (SR) methods based on Deep Learning (DL) have been proposed, leveraging data from numerical simulations for their training process. 
+However, when dealing with data derived from satellite observations, the reconstruction is particularly challenging 
+due to the scarcity of measurements to train SR algorithms with. 
+In our work, we aim at super-resolving low resolution emission maps derived from satellite observations 
+by leveraging the information of emission maps obtained through numerical simulations. 
+To do this, we combine a SR method based on DL with Domain Adaptation (DA) techniques, 
+harmonizing the different aggregation strategies and spatial information used in simulated and observed domains to ensure compatibility. 
+We investigate the effectiveness of DA strategies at different stages by systematically varying the number of simulated and observed emissions used, 
+exploring the implications of data scarcity on the adaptation strategies. To the best of our knowledge, 
+there are no prior investigations of DA in satellite-derived BVOC maps enhancement. 
+Our work represents a first step toward the development of robust strategies for the reconstruction of observed BVOC emissions.
 
 For more details, please check: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](IEEE Link)"
 
@@ -81,6 +92,7 @@ This also reduces the amount time needed to perform the full training and reach 
 <p align="center" width="100%"><img width="40%" src="./experiments/cross_test.png"></p.
 
 
+
 ## Citation
 ```BibTex
 @article{giganti2023bvoc-da,
@@ -120,11 +132,11 @@ distributed by Emissions of atmospheric Compounds and Compilation of Ancillary D
 A. Giganti, S. Mandelli, P. Bestagini, et al., “Super-resolution of
 bvoc maps by adapting deep learning methods,” arXiv preprint, 2023
 
-[![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2)
+[![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.svg)](https://arxiv.org/abs/2302.07570v2)
 
 A. Giganti, S. Mandelli, P. Bestagini, et al., “Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection,” arXiv preprint, 2023
 
-[![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1)
+[![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.svg)](https://arxiv.org/abs/2305.14180v1)
 
 ### Acknowledgement
 This work was supported by the Italian Ministry of University and
