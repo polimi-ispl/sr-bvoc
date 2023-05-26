@@ -84,12 +84,17 @@ The dashed line represents the trend when we use only patches from the $\mathrm{
 
 <p align="center" width="100%"><img width="55%" src="./experiments/exp_2_val_mix.png"></p>
 
+For the sake of clarity, in the Table below we also report the exact values.
+The $\mathrm{\mathbf{O}}$ + $\mathrm{\mathbf{S}}$ injection represent the one exposed in the paper, where we use mixed patches from both domains in the validation phase (solid lines of the Figure above).
+The $\mathrm{\mathbf{O}}$ injection represent the case where we use only patches from the $\mathrm{\mathbf{O}}$ domain in the validation phase (dashed lines of the Figure above).
+<p align="center" width="100%"><img width="55%" src="./experiments/exp_2_val_tab.png"></p>
+
 We can observe a more stable trend when we validate on mixed patches from both domains, 
 but validating only with patches from the $\mathrm{\mathbf{O}}$ domain seems to provide better results with less injected patches. 
 This also reduces the amount time needed to perform the full training and reach convergence.
 
 
-<p align="center" width="100%"><img width="40%" src="./experiments/cross_test.png"></p.
+<p align="center" width="100%"><img width="25%" src="./experiments/cross_test.png"></p.
 
 
 
