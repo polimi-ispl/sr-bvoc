@@ -1,4 +1,4 @@
-# :earth_africa: :herb: :deciduous_tree: :seedling: Super-Resolution of BVOC Emissions :seedling: :deciduous_tree: :herb: :earth_africa:
+# :earth_africa: :seedling: Super-Resolution of BVOC Emissions :seedling: :earth_africa:
 
 This repository is meant to represent a comprehensive collection of all the research works conducted by the Image and Sound Processing Lab 
 ([ISPL](http://ispl.deib.polimi.it/)) research group at [Politecnico di Milano](https://www.polimi.it/en), and focused on the super-resolving 
@@ -9,20 +9,20 @@ BVOC emissions play a crucial role in understanding the interactions between veg
 particularly in the context of climate change and air quality assessment. The application of deep learning methods for 
 super-resolving BVOC emission maps has proven to be a promising approach to enhance the spatial resolution and improve the accuracy of these maps.
 
-The works available in this repository are listed below: (_click to go directly to the proper section_)
+The works available in this repository are listed below:
 
-1. [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), 
+1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), 
 arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2).
 
-2. [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), 
+2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), 
 arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1).
 
-3. [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), 
+3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), 
 accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available through [IEEExplore]().
 
 --- 
 
-# 1) Super-Resolution of BVOC Maps by Adapting Deep Learning Methods
+# 1) :herb: Super-Resolution of BVOC Maps by Adapting Deep Learning Methods
 
 ### Train
 <p align="center" width="100%"><img width="60%" src="systems/1_system_train.png"></p>
@@ -60,7 +60,7 @@ For more details, please check the full paper here: "[Super-Resolution of BVOC M
 
 ---
 
-# 2) Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection
+# 2) :herb: Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection
 
 ### Train
 <p align="center" width="100%"><img width="60%" src="systems/2_system_train.png"></p>
@@ -97,7 +97,7 @@ For more details, please check the full paper here: "[Multi-BVOC Super-Resolutio
 
 ---
 
-# 3) Super-Resolution of BVOC Emission Maps Via Domain Adaptation
+# 3) :herb: Super-Resolution of BVOC Emission Maps Via Domain Adaptation
 
 <p align="center" width="100%"><img width="60%" src="systems/3_system_train.png"></p>
  
@@ -204,7 +204,7 @@ This also reduces the amount time needed to perform the full training and reach 
 
 ---
 
-## BVOC Inventories
+## :open_file_folder: BVOC Inventories
 The simulated data [MEGAN](https://bai.ess.uci.edu/megan) and satellite-derived used in these works are available from the following links:
 
 **Bottom-up** inventories:
@@ -230,7 +230,7 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 
 ---
 
-## About Us
+## :busts_in_silhouette: About Us
 - Image and Sound Processing Lab ([ISPL](http://ispl.deib.polimi.it/))
 - Department of Electronics, Information and Bioengineering ([DEIB](https://www.deib.polimi.it/eng/home-page))
 - [Politecnico di Milano](https://www.polimi.it/en)
