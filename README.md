@@ -1,7 +1,8 @@
-# Super-Resolution of BVOC Emissions
+# :earth_africa: :herb: :deciduous_tree: :seedling: Super-Resolution of BVOC Emissions :seedling: :deciduous_tree: :herb: :earth_africa:
+
 This repository is meant to represent a comprehensive collection of all the research works conducted by the Image and Sound Processing Lab 
 ([ISPL](http://ispl.deib.polimi.it/)) research group at [Politecnico di Milano](https://www.polimi.it/en), and focused on the super-resolving 
-Biogenic Volatile Organic Compound ([BVOC](https://www.cnr.it/en/focus/046-4/bvoc-biogenic-volatile-organic-compound-emission-responses-to-climate-change) 
+Biogenic Volatile Organic Compound ([BVOC](https://www.cnr.it/en/focus/046-4/bvoc-biogenic-volatile-organic-compound-emission-responses-to-climate-change)) 
 emission maps using novel Deep Learning (DL) techniques. 
 
 BVOC emissions play a crucial role in understanding the interactions between vegetation and the atmosphere, 
@@ -10,11 +11,14 @@ super-resolving BVOC emission maps has proven to be a promising approach to enha
 
 The works available in this repository are listed below: (_click to go directly to the proper section_)
 
-1. A. Giganti, S. Mandelli, P. Bestagini, et al., [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2)
-2. A. Giganti, S. Mandelli, P. Bestagini, et al., [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection) arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1)
-3. A. Giganti, S. Mandelli, P. Bestagini, et al., [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available through [IEEExplore]().
+1. [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), 
+arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2).
 
-The emission inventories adopted in these works are linked [here](#bvoc inventories).
+2. [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), 
+arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1).
+
+3. [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), 
+accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available through [IEEExplore]().
 
 --- 
 
