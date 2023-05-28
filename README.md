@@ -1,11 +1,101 @@
-<h1 style="text-align: center;">
-Super-Resolution of BVOC Emission Maps Via Domain Adaptation
-</h1>
+# Super-Resolution of BVOC Emissions
+This repository is meant to represent a comprehensive collection of all the research works conducted by the Image and Sound Processing Lab 
+([ISPL](http://ispl.deib.polimi.it/)) research group at [Politecnico di Milano](https://www.polimi.it/en), and focused on the super-resolving 
+Biogenic Volatile Organic Compound ([BVOC](https://www.cnr.it/en/focus/046-4/bvoc-biogenic-volatile-organic-compound-emission-responses-to-climate-change) 
+emission maps using novel Deep Learning (DL) techniques. 
 
-<p align="center" width="100%"><img width="60%" src="./system.png"></p>
+BVOC emissions play a crucial role in understanding the interactions between vegetation and the atmosphere, 
+particularly in the context of climate change and air quality assessment. The application of deep learning methods for 
+super-resolving BVOC emission maps has proven to be a promising approach to enhance the spatial resolution and improve the accuracy of these maps.
 
-Official Repository of
- **Super-Resolution of BVOC Emission Maps Via Domain Adaptation** paper, accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available at [IEEExplore]().
+The works available in this repository are listed below: (_click to go directly to the proper section_)
+
+1. A. Giganti, S. Mandelli, P. Bestagini, et al., [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2)
+2. A. Giganti, S. Mandelli, P. Bestagini, et al., [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection) arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1)
+3. A. Giganti, S. Mandelli, P. Bestagini, et al., [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available through [IEEExplore]().
+
+The emission inventories adopted in these works are linked [here](#bvoc inventories).
+
+--- 
+
+# 1) Super-Resolution of BVOC Maps by Adapting Deep Learning Methods
+
+### Train
+<p align="center" width="100%"><img width="60%" src="systems/1_system_train.png"></p>
+
+### Deployment
+<p align="center" width="100%"><img width="60%" src="systems/1_system_dev.png"></p>
+
+## Abstract
+
+Biogenic Volatile Organic Compounds (BVOCs) play a critical role in biosphere-atmosphere interactions, being a key factor in the physical and chemical properties 
+of the atmosphere and climate. Acquiring large and fine-grained BVOC emission maps is expensive and time-consuming, so most available BVOC data are obtained on a 
+loose and sparse sampling grid or on small regions. However, high-resolution BVOC data are desirable in many applications, such as air quality, atmospheric chemistry, 
+and climate monitoring. In this work, we investigate the possibility of enhancing BVOC acquisitions, further explaining the relationships between the environment 
+and these compounds. We do so by comparing the performances of several state-of-the-art neural networks proposed for image Super-Resolution (SR), adapting them to 
+overcome the challenges posed by the large dynamic range of the emission and reduce the impact of outliers in the prediction. Moreover, we also consider realistic 
+scenarios, considering both temporal and geographical constraints. Finally, we present possible future developments regarding SR generalization, considering the 
+scale-invariance property and super-resolving emissions from unseen compounds.
+
+For more details, please check the full paper here: "[Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](https://arxiv.org/abs/2302.07570v2)"
+
+## Supplementary material
+###### Super-Resolution Networks' Performance Comparison
+
+<p align="center" width="100%"><img width="60%" src="./experiments/sr_net_comparison.png"></p>
+
+## Citation
+```BibTeX
+@article{giganti2023bvoc-sr,
+  title={Super-Resolution of BVOC Maps by Adapting Deep Learning Methods},
+  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
+  journal={arXiv preprint arXiv:2302.07570v2},
+  year={2023}
+}
+```
+
+---
+
+# 2) Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection
+
+### Train
+<p align="center" width="100%"><img width="60%" src="systems/2_system_train.png"></p>
+
+### Deployment
+<p align="center" width="100%"><img width="60%" src="systems/2_system_dev.png"></p>
+
+## Abstract
+
+Biogenic Volatile Organic Compounds (BVOCs) emitted from the terrestrial ecosystem into the Earth's atmosphere are an important component of atmospheric chemistry. 
+Due to the scarcity of measurement, a reliable enhancement of BVOCs emission maps can aid in providing denser data for atmospheric chemical, climate, 
+and air quality models. In this work, we propose a strategy to super-resolve coarse BVOC emission maps by simultaneously exploiting the contributions of different compounds. 
+To this purpose, we first accurately investigate the spatial inter-connections between several BVOC species. 
+Then, we exploit the found similarities to build a Multi-Image Super-Resolution (MISR) system, in which a number of emission maps associated with diverse 
+compounds are aggregated to boost Super-Resolution (SR) performance. We compare different configurations regarding the species and the number of joined BVOCs. 
+Our experimental results show that incorporating BVOCs' relationship into the process can substantially improve the accuracy of the super-resolved maps. 
+Interestingly, the best results are achieved when we aggregate the emission maps of strongly uncorrelated compounds. This peculiarity seems to confirm what was 
+already guessed for other data-domains, i.e., joined uncorrelated information are more helpful than correlated ones to boost MISR performance. Nonetheless, 
+the proposed work represents the first attempt in SR of BVOC emissions through the fusion of multiple different compounds.
+
+For more details, please check the full paper here: "[Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](https://arxiv.org/abs/2305.14180v1)"
+
+## Citation
+
+```BibTeX
+@article{giganti2023bvoc-misr,
+  title={Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection},
+  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
+  journal={arXiv preprint arXiv:2305.14180v1},
+  year={2023}
+}
+```
+
+
+---
+
+# 3) Super-Resolution of BVOC Emission Maps Via Domain Adaptation
+
+<p align="center" width="100%"><img width="60%" src="systems/3_system_train.png"></p>
  
 ## Abstract
 Enhancing the resolution of Biogenic Volatile Organic Compound (BVOC) emission maps is a critical task in remote sensing. 
@@ -21,7 +111,7 @@ exploring the implications of data scarcity on the adaptation strategies. To the
 there are no prior investigations of DA in satellite-derived BVOC maps enhancement. 
 Our work represents a first step toward the development of robust strategies for the reconstruction of observed BVOC emissions.
 
-For more details, please check: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](IEEE Link)"
+For more details, please check the full paper here: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](IEEExplore TDB)"
 
 ## Supplementary material
 ### Domain Aggregation Comparison
@@ -39,6 +129,8 @@ with the classical case, where we train and test on the same dataset.
 This holds also for the $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ dataset.
 This happens because the two datasets are very similar, and the network is able to generalize well on both of them.
 
+<p align="center" width="100%"><img width="30%" src="./experiments/cross_test.png"></p>
+
 [//]: # (###### Generalization on Simulated Data)
 
 ### Zero Knowledge Scenario
@@ -53,7 +145,7 @@ The last three columns show the super-resolved maps ($\mathrm{\mathbf{\hat{I}}\_
 Notice that we use the network in a zero-knowledge scenario, thus we do not use any adaptation strategy.
 
 We can observe a substantial difference in the spatial pattern reconstruction between the two networks, trained with data of different spatial resolution.
-The $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.25^{circ}$ provides a more blurred version of the map, but it is able to retrieve the emission values more accurately, as we show in the Sec. 4 of the paper.
+The $\mathcal{N}\_{\mathrm{\mathbf{S}}\_T}@0.25^{\circ}$ provides a more blurred version of the map, but it is able to retrieve the emission values more accurately, as we show in the Sec. 4 of the paper.
 
 [//]: # (Fine-tuning of both the networks should be performed in order to provide more accurate results, since the network trained on the simulated data is not able to capture the satellite-derived emission values.)
 
@@ -93,59 +185,55 @@ We can observe a more stable trend when we validate on mixed patches from both d
 but validating only with patches from the $\mathrm{\mathbf{O}}$ domain seems to provide better results with less injected patches. 
 This also reduces the amount time needed to perform the full training and reach convergence.
 
-
-<p align="center" width="100%"><img width="30%" src="./experiments/cross_test.png"></p.
-
-
-
 ## Citation
 ```BibTex
-@article{giganti2023bvoc-da,
-      title={Super-Resolution of BVOC Emission Maps Via Domain Adaptation}, 
-      author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
-      year={2023},
-      DA COMPLETARE
-}
+@INPROCEEDINGS{giganti2023bvoc-sr-da,
+  author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
+  booktitle={IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium}, 
+  title={Super-Resolution of BVOC Emission Maps Via Domain Adaptation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={TBD},
+  doi={TBD}}
 ```
 
-## Data
-The satellite-derived and simulated data used in this work are available from the following links:
+---
 
-**Top-down** invetories:
-- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ - [GOME-2](https://emissions.aeronomie.be/index.php/gome2-based)
-- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ - [OMI](https://emissions.aeronomie.be/index.php/omi-based)
-
-distributed by the Belgian Institute for Space Aeronomy (BIRA-IASB)
-
-<img src="./logos/bira_logo.png" width="30px" alt="logo"></img>
-<img src="./logos/EUMETSAT_logo.png" width="40px" alt="logo"></img>
-<img src="./logos/nasa_logo.png" width="40px" alt="logo"></img>
-<img src="./logos/aura_logo.png" width="50px" alt="logo"></img>
+## BVOC Inventories
+The simulated data [MEGAN](https://bai.ess.uci.edu/megan) and satellite-derived used in these works are available from the following links:
 
 **Bottom-up** inventories:
 - $\mathcal{D}\_{\mathrm{\mathbf{S}}}$ - [CAMS-GLOB-BIO](https://permalink.aeris-data.fr/CAMS-GLOB-BIO)
 
-distributed by Emissions of atmospheric Compounds and Compilation of Ancillary Data (ECCAD), Global Emissions InitiAtive (GEIA)
+distributed by Emissions of atmospheric Compounds and Compilation of Ancillary Data ([ECCAD](https://eccad.aeris-data.fr/)), Global Emissions InitiAtive ([GEIA](https://www.geiacenter.org/))
 
 <img src="./logos/ECCAD_logo.png" width="30px" alt="logo"></img>
 <img src="./logos/GEIA_logo.png" width="80px" alt="logo"></img>
 <img src="./logos/cams_logo.png" width="70px" alt="logo"></img>
 <img src="./logos/copernicus_logo.png" width="80px" alt="logo"></img>
 
+**Top-down** inventories:
+- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ - [GOME-2](https://emissions.aeronomie.be/index.php/gome2-based)
+- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ - [OMI](https://emissions.aeronomie.be/index.php/omi-based)
 
-## Related Works on BVOC
-A. Giganti, S. Mandelli, P. Bestagini, et al., “Super-resolution of
-bvoc maps by adapting deep learning methods,” arXiv preprint, 2023
+distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www.aeronomie.be/))
 
-[![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.svg)](https://arxiv.org/abs/2302.07570v2)
+<img src="./logos/bira_logo.png" width="30px" alt="logo"></img>
+<img src="./logos/EUMETSAT_logo.png" width="40px" alt="logo"></img>
+<img src="./logos/nasa_logo.png" width="40px" alt="logo"></img>
+<img src="./logos/aura_logo.png" width="50px" alt="logo"></img>
 
-A. Giganti, S. Mandelli, P. Bestagini, et al., “Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection,” arXiv preprint, 2023
+---
 
-[![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.svg)](https://arxiv.org/abs/2305.14180v1)
+## About Us
+- Image and Sound Processing Lab ([ISPL](http://ispl.deib.polimi.it/))
+- Department of Electronics, Information and Bioengineering ([DEIB](https://www.deib.polimi.it/eng/home-page))
+- [Politecnico di Milano](https://www.polimi.it/en)
 
 ### Acknowledgement
-This work was supported by the Italian Ministry of University and
-Research (MUR) and the European Union (EU) under the PON/REACT project.
+These works were supported by the Italian Ministry of University and
+Research [MUR](https://www.mur.gov.it/it) and the European Union (EU) under the [PON/REACT](https://www.ponic.gov.it/sites/PON/ReactEU) project.
 
 <img src="./logos/ispl_logo.png" width="110px" alt="logo"></img>
 <img src="./logos/polimi_logo.png" width="230px" alt="logo"></img>
