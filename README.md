@@ -1,4 +1,4 @@
-# :earth_africa: :seedling: Super-Resolution of BVOC Emissions :seedling: :earth_africa:
+# :globe_with_meridians: :earth_africa: :seedling: Super-Resolution of BVOC Emissions :seedling: :earth_africa: :globe_with_meridians:
 
 This repository is meant to represent a comprehensive collection of all the research works conducted by the Image and Sound Processing Lab 
 ([ISPL](http://ispl.deib.polimi.it/)) research group at [Politecnico di Milano](https://www.polimi.it/en), and focused on the super-resolving 
