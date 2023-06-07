@@ -14,11 +14,9 @@ The works available in this repository are listed below:
 1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), 
 arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570v2-b31b1b.png)](https://arxiv.org/abs/2302.07570v2).
 
-2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), 
-arXiv preprint, 2023 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1).
+2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), [EURASIP-EUSIPCO 2023](https://eusipco2023.org/), link [IEEExplore]() [![arXiv](https://img.shields.io/badge/arXiv-2305.14180v1-b31b1b.png)](https://arxiv.org/abs/2305.14180v1)
 
-3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), 
-accepted at [IGARSS 2023](https://2023.ieeeigarss.org/) and available through [IEEExplore]().
+3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), [IGARSS 2023](https://2023.ieeeigarss.org/), link [IEEExplore]()
 
 --- 
 
