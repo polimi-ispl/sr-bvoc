@@ -211,7 +211,7 @@ The simulated data [MEGAN](https://bai.ess.uci.edu/megan) and satellite-derived 
 distributed by Emissions of atmospheric Compounds and Compilation of Ancillary Data ([ECCAD](https://eccad.aeris-data.fr/)), Global Emissions InitiAtive ([GEIA](https://www.geiacenter.org/))
 
 <img src="./logos/ECCAD_logo.png" width="30px" alt="logo"></img>
-<img src="./logos/GEIA_logo.png" width="80px" alt="logo"></img>
+<img src="./logos/geia_logo.png" width="75px" alt="logo"></img>
 <img src="./logos/cams_logo.png" width="70px" alt="logo"></img>
 <img src="./logos/copernicus_logo.png" width="80px" alt="logo"></img>
 
@@ -223,7 +223,7 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 
 <img src="./logos/bira_logo.png" width="30px" alt="logo"></img>
 <img src="./logos/EUMETSAT_logo.png" width="40px" alt="logo"></img>
-<img src="./logos/nasa_logo.png" width="40px" alt="logo"></img>
+<img src="./logos/nasa_logo.png" width="35px" alt="logo"></img>
 <img src="./logos/aura_logo.png" width="50px" alt="logo"></img>
 
 ---
