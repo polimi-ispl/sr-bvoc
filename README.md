@@ -124,6 +124,12 @@ Emission values and patterns differ according to the data aggregation strategies
 <p align="center" width="100%"><img width="60%" src="./experiments/dataset_difference.png"></p>
 
 ### Perfect Knowledge Scenario
+###### Super-Resolution Performance
+The ```.gif``` below shows the learning process using emissions for $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$.
+Notice how the relative absolute error ($|\mathrm{\mathbf{I}\_{HR}} - \mathrm{\mathbf{\hat{I}}\_{HR}}|$) is reduced as the iterations increase, achieving an improvement in the NMSE.
+
+<p align="center" width="100%"><img width="100%" src="./experiments/animation_w_static_OMI.gif"></p>
+
 ###### GOME-2 vs OMI Networks Generalization
 We also performs a cross inference test between the two networks, fully trained on the two different datasets from $\mathrm{\mathbf{O}}$.
 We found that training on $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ and testing on $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ provides comparable result
@@ -166,6 +172,11 @@ We found that most of the time we obtain acceptable results by injecting just a 
 in the learning procedure, as we can notice from the emission patches.  
 
 <p align="center" width="100%"><img width="90%" src="./experiments/injection_comparison_good.png"></p>
+
+The ```.gif``` below provides a more pleasant visualization of the adaptation, for the $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ emissions.
+Note how even 2% injection of $\mathrm{\mathbf{O}}$ emissions is beneficial in super-resolving a satellite-derived emission map.
+
+<p align="center" width="100%"><img width="100%" src="./experiments/animation_w_static_OMI_perc.gif"></p>
 
 For a few particular emission patches, we found that the network is not able to learn the correct mapping between the two domains, leading to unreliable results .
 We believe that this behavior is due to the original small dynamic of the $\mathrm{\mathbf{O}}$ patch to be enhanced.
