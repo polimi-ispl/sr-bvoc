@@ -51,12 +51,15 @@ For more details, please check the full paper here: "[Super-Resolution of BVOC M
 
 ## Citation
 ```BibTeX
-@article{giganti2023bvoc-sr,
-  title={Super-Resolution of BVOC Maps by Adapting Deep Learning Methods},
-  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
-  journal={arXiv preprint arXiv:2302.07570v2},
-  year={2023}
-}
+@INPROCEEDINGS{giganti2023bvoc-sr,
+  author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
+  booktitle={ICIP 2023 - 2023 IEEE International Conference on Image Processing}, 
+  title={Super-Resolution of BVOC Maps by Adapting Deep Learning Methods}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={TBD},
+  doi={TBD}}
 ```
 
 ---
@@ -87,12 +90,15 @@ For more details, please check the full paper here: "[Multi-BVOC Super-Resolutio
 ## Citation
 
 ```BibTeX
-@article{giganti2023bvoc-misr,
-  title={Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection},
-  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
-  journal={arXiv preprint arXiv:2305.14180v1},
-  year={2023}
-}
+@INPROCEEDINGS{giganti2023bvoc-misr,
+  author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
+  booktitle={EUSIPCO 2023 - 2023 EURASIP European Signal Processing Conference}, 
+  title={Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={TBD},
+  doi={TBD}}
 ```
 
 
