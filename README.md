@@ -249,6 +249,12 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 <img src="./logos/aura_logo.png" width="50px" alt="logo"></img>
 
 ---
+## :mag: Useful Links
+
+-  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
+-  [ALBERI project](https://alberi.aeronomie.be/index.php)
+
+---
 
 ## :busts_in_silhouette: About Us
 - Image and Sound Processing Lab ([ISPL](http://ispl.deib.polimi.it/))
