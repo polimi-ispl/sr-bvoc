@@ -44,7 +44,7 @@ overcome the challenges posed by the large dynamic range of the emission and red
 scenarios, considering both temporal and geographical constraints. Finally, we present possible future developments regarding SR generalization, considering the 
 scale-invariance property and super-resolving emissions from unseen compounds.
 
-For more details, please check the full paper here: "[Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](https://arxiv.org/abs/2302.07570v2)"
+For more details, please check the full paper here: "[Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](https://arxiv.org/abs/2302.07570)"
 
 ## Supplementary material
 ###### Super-Resolution Networks' Performance Comparison
@@ -87,7 +87,7 @@ Interestingly, the best results are achieved when we aggregate the emission maps
 already guessed for other data-domains, i.e., joined uncorrelated information are more helpful than correlated ones to boost MISR performance. Nonetheless, 
 the proposed work represents the first attempt in SR of BVOC emissions through the fusion of multiple different compounds.
 
-For more details, please check the full paper here: "[Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](https://arxiv.org/abs/2305.14180v1)"
+For more details, please check the full paper here: "[Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](https://arxiv.org/abs/2305.14180)"
 
 ## Citation
 
@@ -124,7 +124,7 @@ exploring the implications of data scarcity on the adaptation strategies. To the
 there are no prior investigations of DA in satellite-derived BVOC maps enhancement. 
 Our work represents a first step toward the development of robust strategies for the reconstruction of observed BVOC emissions.
 
-For more details, please check the full paper here: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](IEEExplore TDB)"
+For more details, please check the full paper here: "[Super-Resolution of BVOC Emission Maps Via Domain Adaptation](https://arxiv.org/abs/2306.12796)"
 
 ## Supplementary material
 ### Domain Aggregation Comparison
