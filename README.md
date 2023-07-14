@@ -249,10 +249,15 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 <img src="./logos/aura_logo.png" width="50px" alt="logo"></img>
 
 ---
-## :mag: Useful Links
+## :mag: Useful Links & Articles
 
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
 -  [ALBERI project](https://alberi.aeronomie.be/index.php)
+  
+-  Cai, M. et al. (2021). _A scientometric analysis and review of biogenic volatile organic compound emissions: Research hotspots, new frontiers, and environmental implications_, [article](https://www.sciencedirect.com/science/article/abs/pii/S1364032121006043)
+- Niinemets, Ü, et al. (2013). _Biology, Controls and Models of Tree Volatile Organic Compound Emissions_, [book](https://link.springer.com/book/10.1007/978-94-007-6606-8)
+-  Peñuelas, J. and Staudt, M. (2010). _BVOCs and global change_, [article](https://www.sciencedirect.com/science/article/abs/pii/S1360138509003197)
+- Laothawornkitkul, J. et al. (2009). _Biogenic volatile organic compounds in the Earth system_, [article](https://nph.onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2009.02859.x)
 
 ---
 
@@ -260,6 +265,13 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 - Image and Sound Processing Lab ([ISPL](http://ispl.deib.polimi.it/))
 - Department of Electronics, Information and Bioengineering ([DEIB](https://www.deib.polimi.it/eng/home-page))
 - [Politecnico di Milano](https://www.polimi.it/en)
+
+- Antonio Giganti, [ResearchGate](https://www.researchgate.net/profile/Antonio-Giganti), [LinkedIn](https://www.linkedin.com/in/antoniogiganti/)
+- Sara Mandelli, [ResearchGate](https://www.researchgate.net/profile/Sara-Mandelli), [LinkedIn](https://www.linkedin.com/in/saramandelli/)
+- Paolo Bestagini, [LinkedIn](https://www.linkedin.com/in/paolo-bestagini-390b461b4/)
+- Marco Marcon, [LinkedIn](https://www.linkedin.com/in/marco-marcon-26140b13/)
+- Stefano Tubaro, [ResearchGate](https://www.researchgate.net/profile/Stefano-Tubaro), [LinkedIn](https://www.linkedin.com/in/stefano-tubaro-73aa9916/)
+
 
 ### Acknowledgement
 These works were supported by the Italian Ministry of University and
