@@ -11,15 +11,15 @@ super-resolving BVOC emission maps has proven to be a promising approach to enha
 
 The works available in this repository are listed below:
 
-1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), (2023) - [IEEE-ICIP 2023](https://2023.ieeeicip.org/), link [IEEExplore](),
+1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), (2023) - [IEEE-ICIP 2023](https://2023.ieeeicip.org/), link [IEEExplore](https://ieeexplore.ieee.org/document/10223169),
    
 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570-b31b1b.png)](https://arxiv.org/abs/2302.07570)
 
-2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), (2023) - [EURASIP-EUSIPCO 2023](https://eusipco2023.org/), link [IEEExplore]()
+2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), (2023) - [EURASIP-EUSIPCO 2023](https://eusipco2023.org/), link [IEEExplore](https://ieeexplore.ieee.org/document/10290089)
    
 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180-b31b1b.png)](https://arxiv.org/abs/2305.14180)
 
-3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), (2023) - [IEEE-IGARSS 2023](https://2023.ieeeigarss.org/), link [IEEExplore]()
+3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), (2023) - [IEEE-IGARSS 2023](https://2023.ieeeigarss.org/), link [IEEExplore](https://ieeexplore.ieee.org/document/10281779)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2306.12796-b31b1b.png)](https://arxiv.org/abs/2306.12796)
 
@@ -53,15 +53,15 @@ For more details, please check the full paper here: "[Super-Resolution of BVOC M
 
 ## Citation
 ```BibTeX
-@INPROCEEDINGS{giganti2023bvoc-sr,
-  author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
-  booktitle={ICIP 2023 - 2023 IEEE International Conference on Image Processing}, 
+@INPROCEEDINGS{giganti-bvoc-sr-2023,
+  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
+  booktitle={2023 IEEE International Conference on Image Processing (ICIP)}, 
   title={Super-Resolution of BVOC Maps by Adapting Deep Learning Methods}, 
   year={2023},
   volume={},
   number={},
-  pages={TBD},
-  doi={TBD}}
+  pages={1650-1654},
+  doi={10.1109/ICIP49359.2023.10223169}}
 ```
 
 ---
@@ -92,15 +92,15 @@ For more details, please check the full paper here: "[Multi-BVOC Super-Resolutio
 ## Citation
 
 ```BibTeX
-@INPROCEEDINGS{giganti2023bvoc-misr,
-  author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
-  booktitle={EUSIPCO 2023 - 2023 EURASIP European Signal Processing Conference}, 
+@INPROCEEDINGS{giganti-bvoc-misr-2023,
+  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
+  booktitle={2023 31st European Signal Processing Conference (EUSIPCO)}, 
   title={Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection}, 
   year={2023},
   volume={},
   number={},
-  pages={TBD},
-  doi={TBD}}
+  pages={1315-1319},
+  doi={10.23919/EUSIPCO58844.2023.10290089}}
 ```
 
 
@@ -211,15 +211,15 @@ This also reduces the amount time needed to perform the full training and reach 
 
 ## Citation
 ```BibTex
-@INPROCEEDINGS{giganti2023bvoc-sr-da,
-  author={Antonio Giganti, Sara Mandelli, Paolo Bestagini, Marco Marcon, Stefano Tubaro},
+@INPROCEEDINGS{giganti-bvoc-adaptation-2023,
+  author={Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Marcon, Marco and Tubaro, Stefano},
   booktitle={IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium}, 
-  title={Super-Resolution of BVOC Emission Maps Via Domain Adaptation}, 
+  title={Super-Resolution of Bvoc Emission Maps Via Domain Adaptation}, 
   year={2023},
   volume={},
   number={},
-  pages={TBD},
-  doi={TBD}}
+  pages={738-741},
+  doi={10.1109/IGARSS52108.2023.10281779}}
 ```
 
 ---
