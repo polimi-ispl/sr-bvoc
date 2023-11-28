@@ -251,6 +251,8 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 ---
 ## :mag: Useful Links & Articles
 
+-  [SEEDS project](https://www.seedsproject.eu/), [data portal](https://www.seedsproject.eu/data)
+-  [BIRA- IASB data portal](https://repository.aeronomie.be/repository.php)
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
 -  [ALBERI project](https://alberi.aeronomie.be/index.php)
   
