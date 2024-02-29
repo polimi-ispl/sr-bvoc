@@ -11,16 +11,19 @@ super-resolving BVOC emission maps has proven to be a promising approach to enha
 
 The works available in this repository are listed below:
 
-1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), (2023) - [IEEE-ICIP 2023](https://2023.ieeeicip.org/), link [IEEExplore](https://ieeexplore.ieee.org/document/10223169),
+1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), (2023) - [IEEE-ICIP 2023](https://2023.ieeeicip.org/)
    
+[![IEEE-ICIP](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10223169)
 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570-b31b1b.png)](https://arxiv.org/abs/2302.07570)
 
-2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), (2023) - [EURASIP-EUSIPCO 2023](https://eusipco2023.org/), link [IEEExplore](https://ieeexplore.ieee.org/document/10290089)
+2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), (2023) - [EURASIP-EUSIPCO 2023](https://eusipco2023.org/)
    
+[![EURASIP-EUSIPCO](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10290089)
 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180-b31b1b.png)](https://arxiv.org/abs/2305.14180)
 
-3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), (2023) - [IEEE-IGARSS 2023](https://2023.ieeeigarss.org/), link [IEEExplore](https://ieeexplore.ieee.org/document/10281779)
+3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), (2023) - [IEEE-IGARSS 2023](https://2023.ieeeigarss.org/)
 
+[![IEEE-IGARSS](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10281779)
 [![arXiv](https://img.shields.io/badge/arXiv-2306.12796-b31b1b.png)](https://arxiv.org/abs/2306.12796)
 
 --- 
