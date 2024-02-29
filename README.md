@@ -286,5 +286,6 @@ Research [MUR](https://www.mur.gov.it/it) and the European Union (EU) under the 
 <img src="./logos/ue_logo.png" width="110px" alt="logo"></img>
 
 
-
+## Poster
+<p align="center" width="100%"><img width="60%" src="BVOC-SR_poster.jpg"></p>
 
