@@ -259,8 +259,8 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 -  [BIRA- IASB data portal](https://repository.aeronomie.be/repository.php)
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
 -  [ALBERI project](https://alberi.aeronomie.be/index.php)
--  [WEKEO by Copernicus Data Portal](https://www.wekeo.eu/)
--  [CAMS Emission General Document](https://atmosphere.copernicus.eu/sites/default/files/2019-06/cams_emissions_general_document_apr2019_v7.pdf)
+-  [WEKEO by Copernicus data portal](https://www.wekeo.eu/)
+-  [CAMS Emission general document](https://atmosphere.copernicus.eu/sites/default/files/2019-06/cams_emissions_general_document_apr2019_v7.pdf)
 
 **Relevant Works**
 - Wang, H., et al., (2023). _Regional to global distributions, trends, and drivers of biogenic volatile organic compound emission from 2001 to 2020_, [article](https://doi.org/10.5194/egusphere-2023-1830)
