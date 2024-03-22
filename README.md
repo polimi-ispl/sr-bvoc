@@ -256,11 +256,14 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 
 **Data and Projects**
 -  [SEEDS project](https://www.seedsproject.eu/), [data portal](https://www.seedsproject.eu/data)
--  [BIRA- IASB repository](https://repository.aeronomie.be/repository.php)
+-  [BIRA- IASB](https://www.aeronomie.be/), [repository](https://repository.aeronomie.be/repository.php)
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
 -  [ALBERI project](https://alberi.aeronomie.be/index.php)
 -  [WEKEO by Copernicus](https://www.wekeo.eu/), [data portal](https://www.wekeo.eu/data)
 -  [Sentinel Hub](https://www.sentinel-hub.com/), [data portal](https://apps.sentinel-hub.com/eo-browser/)
+-  [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/), [data catalog](https://planetarycomputer.microsoft.com/catalog)
+-  [OSGeo Fundation](https://www.osgeo.org/)
+-  [TorchGeo](https://github.com/microsoft/torchgeo)
 -  [CAMS Emission general document](https://atmosphere.copernicus.eu/sites/default/files/2019-06/cams_emissions_general_document_apr2019_v7.pdf)
 
 **Relevant Works**
