@@ -260,6 +260,7 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
 -  [ALBERI project](https://alberi.aeronomie.be/index.php)
 -  [WEKEO by Copernicus](https://www.wekeo.eu/), [data portal](https://www.wekeo.eu/data)
+-  [NASA PACE](https://pace.gsfc.nasa.gov/), [data portal](https://pace.oceansciences.org/access_pace_data.htm)
 -  [Sentinel Hub](https://www.sentinel-hub.com/), [data portal](https://apps.sentinel-hub.com/eo-browser/)
 -  [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/), [data catalog](https://planetarycomputer.microsoft.com/catalog)
 -  [OSGeo Fundation](https://www.osgeo.org/)
