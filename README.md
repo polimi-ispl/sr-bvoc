@@ -254,9 +254,12 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 ---
 ## :mag: Useful Links & Articles
 
-**Data and Projects**
+**Data**
+-  BVOC 2001-2020 MEGAN v3.2 [article](https://egusphere.copernicus.org/preprints/2023/egusphere-2023-1830/), [data](https://www.scidb.cn/en/detail?dataSetId=f1cdb0cfbd70410d88f491a75844912b)
 -  [SEEDS project](https://www.seedsproject.eu/), [data portal](https://www.seedsproject.eu/data)
 -  [BIRA- IASB](https://www.aeronomie.be/), [repository](https://repository.aeronomie.be/repository.php)
+
+**Projects**
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
 -  [ALBERI project](https://alberi.aeronomie.be/index.php)
 -  [WEKEO by Copernicus](https://www.wekeo.eu/), [data portal](https://www.wekeo.eu/data)
