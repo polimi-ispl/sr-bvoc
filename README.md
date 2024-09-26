@@ -260,6 +260,7 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 -  [SEEDS project](https://www.seedsproject.eu/), [data](https://www.seedsproject.eu/data)
 -  [ECCAD](https://eccad.aeris-data.fr/)
 -  [BIRA- IASB](https://www.aeronomie.be/), [data 1](https://emissions.aeronomie.be/), [data 2](https://repository.aeronomie.be/repository.php)
+-  [Various](https://github.com/satellite-image-deep-learning/datasets?tab=readme-ov-file)
 
 **Projects**
 -  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
