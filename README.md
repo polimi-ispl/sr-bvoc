@@ -178,7 +178,8 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 -  [2020] Isoprene 2013 CrIS [article](https://www.nature.com/articles/s41586-020-2664-3), [data](https://conservancy.umn.edu/items/431b1ffe-f7ac-4596-915b-b178475bca4f)
 -  [SEEDS project](https://www.seedsproject.eu/), [data](https://www.seedsproject.eu/data)
 -  [ECCAD](https://eccad.aeris-data.fr/)
--  [BIRA- IASB](https://www.aeronomie.be/), [data 1](https://emissions.aeronomie.be/), [data 2](https://repository.aeronomie.be/repository.php)
+-  [BIRA-IASB](https://www.aeronomie.be/), [data 1](https://emissions.aeronomie.be/), [data 2](https://repository.aeronomie.be/repository.php)
+-  [NASA EarthData](https://www.earthdata.nasa.gov/learn/pathfinders/air-quality-data-pathfinder/find-data#trace-gas-data) Trace Gas
 -  [Various](https://github.com/satellite-image-deep-learning/datasets?tab=readme-ov-file)
 
 **Projects**
@@ -191,6 +192,7 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 -  [OSGeo Fundation](https://www.osgeo.org/)
 -  [TorchGeo](https://github.com/microsoft/torchgeo)
 -  [CAMS Emission general document](https://atmosphere.copernicus.eu/sites/default/files/2019-06/cams_emissions_general_document_apr2019_v7.pdf)
+-  [NASA EarthData](https://appliedsciences.nasa.gov/get-involved/training/english/arset-high-resolution-no2-monitoring-space-tropomi) train material (NO2 from TROPOMI) 
 
 **Relevant Works**
 - Wang, H., et al., (2024). _Regional to global distributions, trends, and drivers of biogenic volatile organic compound emission from 2001 to 2020_, [article](https://acp.copernicus.org/articles/24/3309/2024/)
