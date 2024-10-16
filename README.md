@@ -173,29 +173,10 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 ---
 ## :mag: Useful Links & Articles
 
-**Data**
--  [2024] BVOC 2001-2020 MEGAN v3.2 [article](https://acp.copernicus.org/articles/24/3309/2024/), [data](https://www.scidb.cn/en/detail?dataSetId=f1cdb0cfbd70410d88f491a75844912b)
--  [2020] Isoprene 2013 CrIS [article](https://www.nature.com/articles/s41586-020-2664-3), [data](https://conservancy.umn.edu/items/431b1ffe-f7ac-4596-915b-b178475bca4f)
--  [SEEDS project](https://www.seedsproject.eu/), [data](https://www.seedsproject.eu/data)
--  [ECCAD](https://eccad.aeris-data.fr/)
--  [BIRA-IASB](https://www.aeronomie.be/), [data 1](https://emissions.aeronomie.be/), [data 2](https://repository.aeronomie.be/repository.php)
--  [NASA EarthData](https://www.earthdata.nasa.gov/learn/pathfinders/air-quality-data-pathfinder/find-data#trace-gas-data) Trace Gas
--  [Various](https://github.com/satellite-image-deep-learning/datasets?tab=readme-ov-file)
-
-**Projects**
--  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
--  [ALBERI project](https://alberi.aeronomie.be/index.php)
--  [WEKEO by Copernicus](https://www.wekeo.eu/), [data portal](https://www.wekeo.eu/data)
--  [NASA PACE](https://pace.gsfc.nasa.gov/), [data portal](https://pace.oceansciences.org/access_pace_data.htm)
--  [Sentinel Hub](https://www.sentinel-hub.com/), [data portal](https://apps.sentinel-hub.com/eo-browser/)
--  [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/), [catalog](https://planetarycomputer.microsoft.com/catalog)
--  [OSGeo Fundation](https://www.osgeo.org/)
--  [TorchGeo](https://github.com/microsoft/torchgeo)
--  [CAMS Emission general document](https://atmosphere.copernicus.eu/sites/default/files/2019-06/cams_emissions_general_document_apr2019_v7.pdf)
--  [NASA EarthData](https://appliedsciences.nasa.gov/get-involved/training/english/arset-high-resolution-no2-monitoring-space-tropomi) train material (NO2 from TROPOMI) 
-
-**Relevant Works**
+**Relevant Articles**
+- N. Rampal et al., (2024). _Enhancing Regional Climate Downscaling through Advances in Machine Learning_, [article](https://journals.ametsoc.org/view/journals/aies/3/2/AIES-D-23-0066.1.xml)
 - Wang, H., et al., (2024). _Regional to global distributions, trends, and drivers of biogenic volatile organic compound emission from 2001 to 2020_, [article](https://acp.copernicus.org/articles/24/3309/2024/)
+- G.-M. Oomen et al., (2024). _Weekly derived top-down volatile-organic-compound fluxes over Europe from TROPOMI HCHO data from 2018 to 2021_, [article](https://acp.copernicus.org/articles/24/449/2024/)
 - Opacka, B., et al., (2021). _Global and regional impacts of land cover changes on isoprene emissions derived from spaceborne data and the MEGAN model_, [article](https://acp.copernicus.org/articles/21/8413/2021/)
 - Wang, H., et al., (2021). _A long-term estimation of biogenic volatile organic compound (BVOC) emission in China from 2001–2016: the roles of land cover change and climate variability_, [article](https://acp.copernicus.org/articles/21/4825/2021/)
 
@@ -206,6 +187,27 @@ distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www
 - Laothawornkitkul, J., et al. (2009). _Biogenic volatile organic compounds in the Earth system_, [article](https://nph.onlinelibrary.wiley.com/doi/10.1111/j.1469-8137.2009.02859.x)
 - Tani, A., et al., (2021). _Review: Exchanges of volatile organic compounds between terrestrial ecosystems and the atmosphere_, [article](https://www.jstage.jst.go.jp/article/agrmet/77/1/77_D-20-00025/_article)
 - Yang, K., et al., (2024). _Exchange of volatile organic compounds between the atmosphere and the soil_, [article](https://link.springer.com/article/10.1007/s11104-024-06524-x)
+
+**Inventories**
+-  [2024] BVOC 2001-2020 MEGAN v3.2 [article](https://acp.copernicus.org/articles/24/3309/2024/), [data](https://www.scidb.cn/en/detail?dataSetId=f1cdb0cfbd70410d88f491a75844912b)
+-  [2020] Isoprene 2013 CrIS [article](https://www.nature.com/articles/s41586-020-2664-3), [data](https://conservancy.umn.edu/items/431b1ffe-f7ac-4596-915b-b178475bca4f)
+-  [SEEDS project](https://www.seedsproject.eu/), [data](https://www.seedsproject.eu/data)
+-  [ECCAD](https://eccad.aeris-data.fr/)
+-  [BIRA-IASB](https://www.aeronomie.be/), [data 1](https://emissions.aeronomie.be/), [data 2](https://repository.aeronomie.be/repository.php)
+-  [NASA EarthData](https://www.earthdata.nasa.gov/learn/pathfinders/air-quality-data-pathfinder/find-data#trace-gas-data) Trace Gas
+-  [Various](https://github.com/satellite-image-deep-learning/datasets?tab=readme-ov-file)
+
+**Related Projects**
+-  [VEG-GAP project](https://www.lifeveggap.eu/), [platform](https://veggaplatform.enea.it/)
+-  [ALBERI project](https://alberi.aeronomie.be/index.php)
+-  [WEKEO by Copernicus](https://www.wekeo.eu/), [data portal](https://www.wekeo.eu/data)
+-  [NASA PACE](https://pace.gsfc.nasa.gov/), [data portal](https://pace.oceansciences.org/access_pace_data.htm)
+-  [Sentinel Hub](https://www.sentinel-hub.com/), [data portal](https://apps.sentinel-hub.com/eo-browser/)
+-  [Microsoft Planetary Computer](https://planetarycomputer.microsoft.com/), [catalog](https://planetarycomputer.microsoft.com/catalog)
+-  [OSGeo Fundation](https://www.osgeo.org/)
+-  [TorchGeo](https://github.com/microsoft/torchgeo)
+-  [CAMS Emission general document](https://atmosphere.copernicus.eu/sites/default/files/2019-06/cams_emissions_general_document_apr2019_v7.pdf)
+-  [NASA EarthData](https://appliedsciences.nasa.gov/get-involved/training/english/arset-high-resolution-no2-monitoring-space-tropomi) train material (NO2 from TROPOMI) 
 
 ---
 
