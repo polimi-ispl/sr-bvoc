@@ -26,6 +26,11 @@ The works available in this repository are listed below:
 [![IEEE-IGARSS](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10281779)
 [![arXiv](https://img.shields.io/badge/arXiv-2306.12796-b31b1b.png)](https://arxiv.org/abs/2306.12796)
 
+4. Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain-Adaptation, (2024)
+   
+_Accepted with minor revisions at MDPI Remote Sensing_
+[Code Repository](https://github.com/polimi-ispl/sr-da-bvoc) 
+
 --- 
 
 # 1) :herb: Super-Resolution of BVOC Maps by Adapting Deep Learning Methods
@@ -143,6 +148,15 @@ For more details, please check the full paper here: "[Super-Resolution of BVOC E
   pages={738-741},
   doi={10.1109/IGARSS52108.2023.10281779}}
 ```
+
+---
+
+# 3) :herb: Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain-Adaptation
+ 
+## Abstract
+Plants emit Biogenic Volatile Organic Compounds (BVOCs), such as isoprene, significantly influencing atmospheric chemistry and climate. BVOC emissions estimated from bottom-up (BU) approaches (derived from numerical simulations) usually exhibit denser and more detailed spatial information concerning the ones estimated through top-down (TD) approaches (derived from satellite observations). Moreover, numerically simulated emissions are typically easier to obtain, even if they are less reliable than satellite acquisitions which, being derived from actual measurements, are considered a more trustworthy instrument to perform chemistry and climate investigations. Given the coarseness and relative lack of satellite-derived measurements, fine-grained numerically simulated emissions could be exploited to enhance them. However, simulated (BU) and observed (TD) emissions usually differ regarding value range and spatiotemporal resolution. In this work, we present a novel Deep Learning (DL)-based approach to increase the spatial resolution of satellite-derived isoprene emissions, investigating the adoption of efficient Domain Adaptation (DA) techniques to bridge the gap between numerically simulated emissions and satellite-derived ones, avoiding the need of retraining a specific Super-Resolution (SR) algorithm on them. To do so, we propose a methodology based on the Cycle Generative Adversarial Network (CycleGAN) architecture, which has been extensively used for adapting natural images (like digital photographs) of different domains. In our work, we depart from the standard CycleGAN framework, proposing additional loss terms that allow for better DA and emissions’ SR. We extensively demonstrate the proposed method’s effectiveness and robustness in restoring fine-grained patterns of observed isoprene emissions. Moreover, we compare different setups and validate our approach using different emission inventories from both domains. Eventually, we show that the proposed DA strategy paves the way towards robust SR solutions even in case of spatial resolution mismatch between the training and testing domains and in case of unknown testing data.
+
+The manuscript will be released on MDPI Remote Sensing soon.
 
 ---
 
