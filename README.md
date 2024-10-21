@@ -28,7 +28,7 @@ The works available in this repository are listed below:
 
 4. Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain-Adaptation, (2024)
    
-_Accepted with minor revisions at MDPI Remote Sensing_
+_Submitted with minor revisions at MDPI Remote Sensing_
 [Code Repository](https://github.com/polimi-ispl/sr-da-bvoc) 
 
 --- 
