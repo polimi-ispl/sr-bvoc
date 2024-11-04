@@ -11,25 +11,24 @@ super-resolving BVOC emission maps has proven to be a promising approach to enha
 
 The works available in this repository are listed below:
 
-1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), (2023) - [IEEE-ICIP 2023](https://2023.ieeeicip.org/)
+1. :link: [Super-Resolution of BVOC Maps by Adapting Deep Learning Methods](#super-resolution-of-bvoc-maps-by-adapting-deep-learning-methods), [IEEE-ICIP 2023](https://2023.ieeeicip.org/)
    
 [![IEEE-ICIP](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10223169)
 [![arXiv](https://img.shields.io/badge/arXiv-2302.07570-b31b1b.png)](https://arxiv.org/abs/2302.07570)
 
-2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), (2023) - [EURASIP-EUSIPCO 2023](https://eusipco2023.org/)
+2. :link: [Multi-BVOC Super-Resolution Exploiting Compounds Inter-Connection](#multi-bvoc-super-resolution-exploiting-compounds-inter-connection), [EURASIP-EUSIPCO 2023](https://eusipco2023.org/)
    
 [![EURASIP-EUSIPCO](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10290089)
 [![arXiv](https://img.shields.io/badge/arXiv-2305.14180-b31b1b.png)](https://arxiv.org/abs/2305.14180)
 
-3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), (2023) - [IEEE-IGARSS 2023](https://2023.ieeeigarss.org/)
+3. :link: [Super-Resolution of BVOC Emission Maps Via Domain Adaptation](#super-resolution-of-bvoc-emission-maps-via-domain-adaptation), [IEEE-IGARSS 2023](https://2023.ieeeigarss.org/)
 
 [![IEEE-IGARSS](https://img.shields.io/badge/IEEExplore-2023-blue.svg?style=flat-square)](https://ieeexplore.ieee.org/document/10281779)
 [![arXiv](https://img.shields.io/badge/arXiv-2306.12796-b31b1b.png)](https://arxiv.org/abs/2306.12796)
 
-4. Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain-Adaptation, (2024)
+4. :link: [Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain-Adaptation](#learn-from-imulations-adapt-to-observations-super-resolution-of-isoprene-emissions-via-unpaired-domain-adaptation), [MDPI Remote Sensing 2024](https://www.mdpi.com/journal/remotesensing)
    
-_Submitted with minor revisions at MDPI Remote Sensing_
-[Code Repository](https://github.com/polimi-ispl/sr-da-bvoc) 
+[![Remote Sensing](https://img.shields.io/badge/MDPI-2024-green.svg?style=flat-square)](https://www.mdpi.com/2072-4292/16/21/3963) - [CODE](https://github.com/polimi-ispl/sr-da-bvoc) 
 
 --- 
 
@@ -156,8 +155,7 @@ For more details, please check the full paper here: "[Super-Resolution of BVOC E
 ## Abstract
 Plants emit Biogenic Volatile Organic Compounds (BVOCs), such as isoprene, significantly influencing atmospheric chemistry and climate. BVOC emissions estimated from bottom-up (BU) approaches (derived from numerical simulations) usually exhibit denser and more detailed spatial information concerning the ones estimated through top-down (TD) approaches (derived from satellite observations). Moreover, numerically simulated emissions are typically easier to obtain, even if they are less reliable than satellite acquisitions which, being derived from actual measurements, are considered a more trustworthy instrument to perform chemistry and climate investigations. Given the coarseness and relative lack of satellite-derived measurements, fine-grained numerically simulated emissions could be exploited to enhance them. However, simulated (BU) and observed (TD) emissions usually differ regarding value range and spatiotemporal resolution. In this work, we present a novel Deep Learning (DL)-based approach to increase the spatial resolution of satellite-derived isoprene emissions, investigating the adoption of efficient Domain Adaptation (DA) techniques to bridge the gap between numerically simulated emissions and satellite-derived ones, avoiding the need of retraining a specific Super-Resolution (SR) algorithm on them. To do so, we propose a methodology based on the Cycle Generative Adversarial Network (CycleGAN) architecture, which has been extensively used for adapting natural images (like digital photographs) of different domains. In our work, we depart from the standard CycleGAN framework, proposing additional loss terms that allow for better DA and emissions’ SR. We extensively demonstrate the proposed method’s effectiveness and robustness in restoring fine-grained patterns of observed isoprene emissions. Moreover, we compare different setups and validate our approach using different emission inventories from both domains. Eventually, we show that the proposed DA strategy paves the way towards robust SR solutions even in case of spatial resolution mismatch between the training and testing domains and in case of unknown testing data.
 
-_Submitted with minor revisions at MDPI Remote Sensing_
-[Code Repository](https://github.com/polimi-ispl/sr-da-bvoc) 
+For more details, please check the full paper here: "[Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain Adaptation](https://www.mdpi.com/2072-4292/16/21/3963)" - [CODE](https://github.com/polimi-ispl/sr-da-bvoc) 
 
 ---
 
