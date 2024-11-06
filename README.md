@@ -155,17 +155,36 @@ For more details, please check the full paper here: "[Super-Resolution of BVOC E
 ## Abstract
 Plants emit Biogenic Volatile Organic Compounds (BVOCs), such as isoprene, significantly influencing atmospheric chemistry and climate. BVOC emissions estimated from bottom-up (BU) approaches (derived from numerical simulations) usually exhibit denser and more detailed spatial information concerning the ones estimated through top-down (TD) approaches (derived from satellite observations). Moreover, numerically simulated emissions are typically easier to obtain, even if they are less reliable than satellite acquisitions which, being derived from actual measurements, are considered a more trustworthy instrument to perform chemistry and climate investigations. Given the coarseness and relative lack of satellite-derived measurements, fine-grained numerically simulated emissions could be exploited to enhance them. However, simulated (BU) and observed (TD) emissions usually differ regarding value range and spatiotemporal resolution. In this work, we present a novel Deep Learning (DL)-based approach to increase the spatial resolution of satellite-derived isoprene emissions, investigating the adoption of efficient Domain Adaptation (DA) techniques to bridge the gap between numerically simulated emissions and satellite-derived ones, avoiding the need of retraining a specific Super-Resolution (SR) algorithm on them. To do so, we propose a methodology based on the Cycle Generative Adversarial Network (CycleGAN) architecture, which has been extensively used for adapting natural images (like digital photographs) of different domains. In our work, we depart from the standard CycleGAN framework, proposing additional loss terms that allow for better DA and emissions’ SR. We extensively demonstrate the proposed method’s effectiveness and robustness in restoring fine-grained patterns of observed isoprene emissions. Moreover, we compare different setups and validate our approach using different emission inventories from both domains. Eventually, we show that the proposed DA strategy paves the way towards robust SR solutions even in case of spatial resolution mismatch between the training and testing domains and in case of unknown testing data.
 
-For more details, please check the full paper here: "[Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain Adaptation](https://www.mdpi.com/2072-4292/16/21/3963)" - [CODE](https://github.com/polimi-ispl/sr-da-bvoc) 
+For more details, please check the full paper here: "[Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain Adaptation](https://www.mdpi.com/2072-4292/16/21/3963)" 
 
+:arrow_right: :arrow_right::computer: [IMPLEMENTATION CODE](https://github.com/polimi-ispl/sr-da-bvoc) 
+ :computer: :arrow_left: :arrow_left:
+
+ 
+![deployment](https://www.mdpi.com/remotesensing/remotesensing-16-03963/article_deploy/html/images/remotesensing-16-03963-g003.png)
+
+ 
+## Citation
+```Bibtex
+@ARTICLE{giganti2024bvoc,
+author = {Giganti, Antonio and Mandelli, Sara and Bestagini, Paolo and Tubaro, Stefano},
+title = {Learn from Simulations, Adapt to Observations: Super-Resolution of Isoprene Emissions via Unpaired Domain Adaptation},
+journal = {Remote Sensing},
+volume = {16},
+year = {2024},
+number = {21},
+doi = {10.3390/rs16213963}
+}
+```
 ---
 
 ## :open_file_folder: BVOC Inventories
 The simulated data [MEGAN](https://bai.ess.uci.edu/megan) and satellite-derived used in these works are available from the following links:
 
 **Bottom-up** inventories:
-- $\mathcal{D}\_{\mathrm{\mathbf{S}}}$ - [CAMS-GLOB-BIO](https://permalink.aeris-data.fr/CAMS-GLOB-BIO)
-
+- [MEGANv2.1](https://permalink.aeris-data.fr/CAMS-GLOB-BIO)
 distributed by Emissions of atmospheric Compounds and Compilation of Ancillary Data ([ECCAD](https://eccad.aeris-data.fr/)), Global Emissions InitiAtive ([GEIA](https://www.geiacenter.org/))
+- [MEGANv3.2](https://doi.org/10.57760/sciencedb.iap.00008)
 
 <img src="./logos/ECCAD_logo.png" width="30px" alt="logo"></img>
 <img src="./logos/geia_logo.png" width="75px" alt="logo"></img>
@@ -173,8 +192,8 @@ distributed by Emissions of atmospheric Compounds and Compilation of Ancillary D
 <img src="./logos/copernicus_logo.png" width="80px" alt="logo"></img>
 
 **Top-down** inventories:
-- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_1}$ - [GOME-2](https://emissions.aeronomie.be/index.php/gome2-based)
-- $\mathcal{D}\_{\mathrm{\mathbf{O}}\_2}$ - [OMI](https://emissions.aeronomie.be/index.php/omi-based)
+- [GOME-2](https://emissions.aeronomie.be/index.php/gome2-based)
+- [OMI](https://emissions.aeronomie.be/index.php/omi-based)
 
 distributed by the Belgian Institute for Space Aeronomy ([BIRA-IASB](https://www.aeronomie.be/))
 
